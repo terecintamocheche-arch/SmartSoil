@@ -55,6 +55,51 @@
         </div>
       </div>
     </div>
+    
+    <div class="col-md-6">
+        <div class="card dashboard-card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Moisture Threshold</h2>
+            <p>Choose the minimum moisture level for your soil.</p>
+            <label for="threshold" class="form-label">
+              Threshold: <span id="thresholdValue">30</span>%
+            </label>
+            <input
+              type="range"
+              class="form-range"
+              id="threshold"
+              min="10"
+              max="80"
+              value="30"
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+ <section class="card dashboard-card mb-4">
+      <div class="card-body">
+        <h2 class="card-title">Record a Soil Reading</h2>
+
+        <form id="readingForm">
+          <div class="mb-3">
+            <label for="newMoisture" class="form-label">
+              Soil moisture (%)
+            </label>
+            <input
+              type="number"
+              class="form-control"
+              id="newMoisture"
+              min="0"
+              max="100"
+              step="1"
+              required
+              placeholder="Enter a value from 0 to 100"
+            >
+          </div>
+
+    
+
 
     
 
