@@ -20,6 +20,20 @@
       <h1>Soil Moisture Dashboard</h1>
       <p>Monitor soil conditions and make smarter irrigation decisions.</p>
     </section>
-    
+     <div class="row g-4 mb-4">
+      <div class="col-md-6">
+        <div class="card dashboard-card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Current Soil Moisture</h2>
+            <p id="moistureValue" class="moisture-value">--%</p>
+            <p id="irrigationStatus" aria-live="polite">
+              Waiting for soil data...
+            </p>
+            <button id="refreshBtn" class="btn btn-success">
+              Refresh Readings
+            </button>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
