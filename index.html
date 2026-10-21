@@ -50,6 +50,25 @@
             </select>
           </div>
         </div>
+        <p id="configurationMessage" class="feedback mt-3" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="row g-4 mb-4">
+      <div class="col-md-6">
+        <article class="glass-card metric-card h-100">
+          <p class="metric-label">Current soil moisture</p>
+          <h2 id="moistureValue">--</h2>
+          <p class="muted">Volumetric water content (m³/m³)</p>
+          <p id="readingSource" class="small muted">
+            Waiting for API reading
+          </p>
+          <button id="refreshBtn" class="btn btn-primary mt-2" type="button">
+            Fetch moisture
+          </button>
+        </article>
+      </div>
+
 
 
    <footer class="text-center py-4">
