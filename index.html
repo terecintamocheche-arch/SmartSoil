@@ -9,127 +9,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <nav class="navbar navbar-dark bg-success">
+     <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#">SmartSoil</a>
-      <span class="text-white">Smart Irrigation Monitor</span>
+      <a class="navbar-brand fw-bold" href="#"> SmartSoil</a>
+      <span class="navbar-text">Centre Pivot Irrigation Assistant</span>
     </div>
   </nav>
-  <main class="container py-5">
-    <section class="hero mb-4">
-      <h1>Soil Moisture Dashboard</h1>
-      <p>Monitor soil conditions and make smarter irrigation decisions.</p>
-    </section>
-     <div class="row g-4 mb-4">
-      <div class="col-md-6">
-        <div class="card dashboard-card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Current Soil Moisture</h2>
-            <p id="moistureValue" class="moisture-value">--%</p>
-            <p id="irrigationStatus" aria-live="polite">
-              Waiting for soil data...
-            </p>
-            <button id="refreshBtn" class="btn btn-success">
-              Refresh Readings
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card dashboard-card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Moisture Threshold</h2>
-            <p>Choose the minimum moisture level for your soil.</p>
-            <label for="threshold" class="form-label">
-              Threshold: <span id="thresholdValue">30</span>%
-            </label>
-            <input
-              type="range"
-              class="form-range"
-              id="threshold"
-              min="10"
-              max="80"
-              value="30"
-            >
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="col-md-6">
-        <div class="card dashboard-card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Moisture Threshold</h2>
-            <p>Choose the maximum moisture level for your soil.</p>
-            <label for="threshold" class="form-label">
-              Threshold: <span id="thresholdValue">30</span>%
-            </label>
-
-            <input
-              type="range"
-              class="form-range"
-              id="threshold"
-              min="10"
-              max="80"
-              value="30"
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-
-
- <section class="card dashboard-card mb-4">
-      <div class="card-body">
-        <h2 class="card-title">Record a Soil Reading</h2>
-
-        <form id="readingForm">
-          <div class="mb-3">
-            <label for="newMoisture" class="form-label">
-              Soil moisture (%)
-            </label>
-            <input
-              type="number"
-              class="form-control"
-              id="newMoisture"
-              min="0"
-              max="100"
-              step="1"
-              required
-              placeholder="Enter a value from 0 to 100"
-            >
-          </div>
-
-          <button type="submit" class="btn btn-success">
-            Submit Reading
-          </button>
-        </form>
-
-        <p id="message" class="mt-3" role="status" aria-live="polite"></p>
-      </div>
-    </section>
-    <section class="card dashboard-card">
-      <div class="card-body">
-        <h2 class="card-title">Recent Readings</h2>
-        <div class="table-responsive">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Moisture</th>
-                <th scope="col">Status</th>
-                <th scope="col">Time</th>
-              </tr>
-            </thead>
-            <tbody id="readingsTable">
-              <tr>
-                <td colspan="3">No readings yet.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-  </main>
 
    <footer class="text-center py-4">
     <p>SmartSoil &copy; 2026 | Smarter water, healthier soil </p>
