@@ -1,5 +1,5 @@
 
-/* ===== SmartSoil: Sage Glass Theme ===== */
+
 
 :root {
   --sage: #a8bfa3;
@@ -28,7 +28,7 @@ body {
     linear-gradient(135deg, #f8faf5, #eaf2e6);
 }
 
-/* Navigation */
+
 
 .navbar {
   background: rgba(255, 255, 255, 0.48) !important;
@@ -47,8 +47,6 @@ body {
 .navbar .text-white {
   color: var(--muted) !important;
 }
-
-/* Hero section */
 
 .hero {
   padding: 38px;
@@ -75,7 +73,7 @@ body {
   line-height: 1.7;
 }
 
-/* Glass cards */
+
 
 .dashboard-card {
   background: var(--glass);
@@ -103,7 +101,7 @@ body {
   margin-bottom: 18px;
 }
 
-/* Moisture reading */
+
 
 .moisture-value {
   color: #8eae88;
@@ -112,7 +110,7 @@ body {
   margin: 15px 0;
 }
 
-/* Buttons */
+
 
 .btn-success {
   background: #a8c5a1;
@@ -132,7 +130,7 @@ body {
   box-shadow: 0 4px 12px rgba(145, 179, 138, 0.25);
 }
 
-/* Form fields */
+
 
 .form-control {
   background: rgba(255, 255, 255, 0.65);
@@ -161,7 +159,7 @@ body {
   background: #a8c5a1;
 }
 
-/* Readings table */
+
 
 .table {
   --bs-table-bg: transparent;
@@ -180,7 +178,7 @@ body {
   border-bottom-color: rgba(214, 227, 209, 0.65);
 }
 
-/* Status messages */
+
 
 #message {
   color: var(--muted);
@@ -191,14 +189,13 @@ body {
   color: var(--muted);
 }
 
-/* Footer */
 
 footer {
   color: var(--muted);
   font-size: 0.9rem;
 }
 
-/* Mobile responsiveness */
+
 
 @media (max-width: 576px) {
   .hero {
