@@ -1,5 +1,5 @@
 
-/* ---------- General page styling ---------- */
+
 :root {
   --sage: #a8bea3;
   --sage-light: #e5eee1;
@@ -25,7 +25,7 @@ body {
     linear-gradient(135deg, #edf3e9, #f7f8f2 55%, #e3eee0);
 }
 
-/* ---------- Navigation ---------- */
+
 .navbar {
   background: rgba(255, 255, 255, 0.45);
   backdrop-filter: blur(16px);
@@ -46,7 +46,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* ---------- Hero section ---------- */
+
 .hero {
   padding: 2rem 0;
   max-width: 750px;
@@ -73,7 +73,7 @@ body {
   line-height: 1.8;
 }
 
-/* ---------- Glass cards ---------- */
+
 .glass-card {
   padding: 1.6rem;
   border: 1px solid var(--border);
@@ -101,7 +101,7 @@ body {
   line-height: 1.6;
 }
 
-/* ---------- Moisture metrics ---------- */
+
 .metric-card {
   display: flex;
   flex-direction: column;
@@ -129,7 +129,7 @@ body {
   font-size: 1.65rem;
 }
 
-/* ---------- Forms ---------- */
+
 .form-label {
   color: var(--text);
   font-weight: 600;
@@ -155,7 +155,7 @@ body {
   font-size: 0.92rem;
 }
 
-/* ---------- Buttons ---------- */
+
 .btn {
   padding: 0.7rem 1.15rem;
   border-radius: 12px;
@@ -191,7 +191,7 @@ body {
   color: var(--text);
 }
 
-/* ---------- Reading history table ---------- */
+
 .table {
   margin-bottom: 0;
   color: var(--text);
@@ -211,13 +211,13 @@ body {
   font-size: 0.9rem;
 }
 
-/* ---------- Footer ---------- */
+
 footer {
   color: var(--muted);
   font-size: 0.9rem;
 }
 
-/* ---------- Mobile layout ---------- */
+
 @media (max-width: 576px) {
   .glass-card {
     padding: 1.15rem;
@@ -233,7 +233,7 @@ footer {
   }
 }
 
-/* ---------- Accessibility ---------- */
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
