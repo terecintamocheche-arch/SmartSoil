@@ -35,6 +35,21 @@ fetch("soil_moisture_thresholds.json")
     );
   });
 
+   if (matchingRecord) {
+    configurationMessage.textContent =
+      "Threshold found: " +
+      matchingRecord.threshold +
+      "%. Field capacity: " +
+      matchingRecord.fieldCapacity +
+      "%. Wilting point: " +
+      matchingRecord.wiltingPoint +
+      "%.";
+  } else {
+    configurationMessage.textContent =
+      "No threshold record was found for this soil and crop combination.";
+  }
+}
+
 
 
   
