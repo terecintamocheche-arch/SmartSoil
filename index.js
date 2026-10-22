@@ -52,6 +52,11 @@ fetch("soil_moisture_thresholds.json")
 
 
 
+soilType.addEventListener("change", findThreshold);
+cropType.addEventListener("change", findThreshold);
+
+
+
   
   
   
