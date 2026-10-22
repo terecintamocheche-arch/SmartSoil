@@ -33,21 +33,23 @@
         <div class="row g-3">
           <div class="col-md-6">
             <label for="soilType" class="form-label">Soil type</label>
-            <select id="soilType" class="form-select" required>
-              <option value="">Choose soil type</option>
-              <option value="sandy">Sandy soil</option>
-              <option value="loamy">Loamy soil</option>
-              <option value="clay">Clay soil</option>
-            </select>
+            
+<select id="soilType" class="form-select" required>
+  <option value="">Choose soil type</option>
+  <option value="sand">Sand</option>
+  <option value="loamy sand">Loamy sand</option>
+  <option value="sandy loam">Sandy loam</option>
+  <option value="loam">Loam</option>
+  <option value="clay loam">Clay loam</option>
+  <option value="silt loam">Silt loam</option>
+  <option value="clay">Clay</option>
+</select>
+
+
           </div>
            <div class="col-md-6">
             <label for="cropType" class="form-label">Crop</label>
-            <select id="cropType" class="form-select" required>
-              <option value="">Choose crop</option>
-              <option value="maize">Maize</option>
-              <option value="wheat">Onions</option>
-              <option value="tomatoes">Cassava</option>
-            </select>
+            
           </div>
         </div>
         <p id="configurationMessage" class="feedback mt-3" aria-live="polite"></p>
