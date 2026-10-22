@@ -19,6 +19,15 @@ const thresholds = {
   }
 };
 
+for (const crop in thresholds) {
+  const option = document.createElement("option");
+
+  option.value = crop;
+  option.textContent = crop;
+
+  cropSelect.appendChild(option);
+}
+
 
 
 
