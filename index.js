@@ -19,3 +19,4 @@ const message = document.querySelector("#message");
 const saveBtn = document.querySelector("#saveBtn");
 const historyBtn = document.querySelector("#historyBtn");
 const readingsTable = document.querySelector("#readingsTable");
+
