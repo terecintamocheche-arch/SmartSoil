@@ -18,4 +18,21 @@ fetch("soil_moisture_thresholds.json")
   const cropType = document.getElementById("cropType");
   const configurationMessage = document.getElementById("configurationMessage");
 
+  function findThreshold() {
+  const selectedSoil = soilType.value;
+  const selectedCrop = cropType.value;
+  
+   if (selectedSoil === "" || selectedCrop === "") {
+    configurationMessage.textContent =
+      "Please select both a soil type and a crop.";
+    return;
+  }
+
+
+  
+  
+  
+
+
+
 
