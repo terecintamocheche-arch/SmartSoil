@@ -243,3 +243,16 @@ footer {
   }
 }
 
+body {
+    background-image:
+        linear-gradient(
+            rgba(20, 45, 25, 0.45),
+            rgba(20, 45, 25, 0.45)
+        ),
+        url("galana.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
