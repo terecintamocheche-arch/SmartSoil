@@ -14,3 +14,8 @@ fetch("soil_moisture_thresholds.json")
     console.log("Error loading threshold data:", error);
   });
 
+  const soilType = document.getElementById("soilType");
+  const cropType = document.getElementById("cropType");
+  const configurationMessage = document.getElementById("configurationMessage");
+
+
