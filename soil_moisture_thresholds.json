@@ -1,0 +1,455 @@
+{
+  "description": "Soil moisture thresholds converted from Irrigation_Soil_Moisture_Thresholds.xlsx",
+  "sourceSheet": "Thresholds",
+  "units": "percent volumetric soil moisture as represented in the source spreadsheet",
+  "records": [
+    {
+      "crop": "maize",
+      "soilType": "sand",
+      "fieldCapacity": 12,
+      "wiltingPoint": 4,
+      "managementAllowableDepletion": 50,
+      "threshold": 8
+    },
+    {
+      "crop": "maize",
+      "soilType": "loamy sand",
+      "fieldCapacity": 14,
+      "wiltingPoint": 6,
+      "managementAllowableDepletion": 50,
+      "threshold": 10
+    },
+    {
+      "crop": "maize",
+      "soilType": "sandy loam",
+      "fieldCapacity": 20,
+      "wiltingPoint": 8,
+      "managementAllowableDepletion": 50,
+      "threshold": 14
+    },
+    {
+      "crop": "maize",
+      "soilType": "loam",
+      "fieldCapacity": 27,
+      "wiltingPoint": 12,
+      "managementAllowableDepletion": 50,
+      "threshold": 19.5
+    },
+    {
+      "crop": "maize",
+      "soilType": "silt loam",
+      "fieldCapacity": 30,
+      "wiltingPoint": 15,
+      "managementAllowableDepletion": 50,
+      "threshold": 22.5
+    },
+    {
+      "crop": "maize",
+      "soilType": "clay loam",
+      "fieldCapacity": 32,
+      "wiltingPoint": 14,
+      "managementAllowableDepletion": 50,
+      "threshold": 23
+    },
+    {
+      "crop": "maize",
+      "soilType": "clay",
+      "fieldCapacity": 40,
+      "wiltingPoint": 25,
+      "managementAllowableDepletion": 50,
+      "threshold": 32.5
+    },
+    {
+      "crop": "beans",
+      "soilType": "sand",
+      "fieldCapacity": 12,
+      "wiltingPoint": 4,
+      "managementAllowableDepletion": 45,
+      "threshold": 8.4
+    },
+    {
+      "crop": "beans",
+      "soilType": "loamy sand",
+      "fieldCapacity": 14,
+      "wiltingPoint": 6,
+      "managementAllowableDepletion": 45,
+      "threshold": 10.4
+    },
+    {
+      "crop": "beans",
+      "soilType": "sandy loam",
+      "fieldCapacity": 20,
+      "wiltingPoint": 8,
+      "managementAllowableDepletion": 45,
+      "threshold": 14.6
+    },
+    {
+      "crop": "beans",
+      "soilType": "loam",
+      "fieldCapacity": 27,
+      "wiltingPoint": 12,
+      "managementAllowableDepletion": 45,
+      "threshold": 20.2
+    },
+    {
+      "crop": "beans",
+      "soilType": "silt loam",
+      "fieldCapacity": 30,
+      "wiltingPoint": 15,
+      "managementAllowableDepletion": 45,
+      "threshold": 23.2
+    },
+    {
+      "crop": "beans",
+      "soilType": "clay loam",
+      "fieldCapacity": 32,
+      "wiltingPoint": 14,
+      "managementAllowableDepletion": 45,
+      "threshold": 23.9
+    },
+    {
+      "crop": "beans",
+      "soilType": "clay",
+      "fieldCapacity": 40,
+      "wiltingPoint": 25,
+      "managementAllowableDepletion": 45,
+      "threshold": 33.2
+    },
+    {
+      "crop": "onion",
+      "soilType": "sand",
+      "fieldCapacity": 12,
+      "wiltingPoint": 4,
+      "managementAllowableDepletion": 35,
+      "threshold": 9.2
+    },
+    {
+      "crop": "onion",
+      "soilType": "loamy sand",
+      "fieldCapacity": 14,
+      "wiltingPoint": 6,
+      "managementAllowableDepletion": 35,
+      "threshold": 11.2
+    },
+    {
+      "crop": "onion",
+      "soilType": "sandy loam",
+      "fieldCapacity": 20,
+      "wiltingPoint": 8,
+      "managementAllowableDepletion": 35,
+      "threshold": 15.8
+    },
+    {
+      "crop": "onion",
+      "soilType": "loam",
+      "fieldCapacity": 27,
+      "wiltingPoint": 12,
+      "managementAllowableDepletion": 35,
+      "threshold": 21.8
+    },
+    {
+      "crop": "onion",
+      "soilType": "silt loam",
+      "fieldCapacity": 30,
+      "wiltingPoint": 15,
+      "managementAllowableDepletion": 35,
+      "threshold": 24.8
+    },
+    {
+      "crop": "onion",
+      "soilType": "clay loam",
+      "fieldCapacity": 32,
+      "wiltingPoint": 14,
+      "managementAllowableDepletion": 35,
+      "threshold": 25.7
+    },
+    {
+      "crop": "onion",
+      "soilType": "clay",
+      "fieldCapacity": 40,
+      "wiltingPoint": 25,
+      "managementAllowableDepletion": 35,
+      "threshold": 34.8
+    },
+    {
+      "crop": "tomato",
+      "soilType": "sand",
+      "fieldCapacity": 12,
+      "wiltingPoint": 4,
+      "managementAllowableDepletion": 35,
+      "threshold": 9.2
+    },
+    {
+      "crop": "tomato",
+      "soilType": "loamy sand",
+      "fieldCapacity": 14,
+      "wiltingPoint": 6,
+      "managementAllowableDepletion": 35,
+      "threshold": 11.2
+    },
+    {
+      "crop": "tomato",
+      "soilType": "sandy loam",
+      "fieldCapacity": 20,
+      "wiltingPoint": 8,
+      "managementAllowableDepletion": 35,
+      "threshold": 15.8
+    },
+    {
+      "crop": "tomato",
+      "soilType": "loam",
+      "fieldCapacity": 27,
+      "wiltingPoint": 12,
+      "managementAllowableDepletion": 35,
+      "threshold": 21.8
+    },
+    {
+      "crop": "tomato",
+      "soilType": "silt loam",
+      "fieldCapacity": 30,
+      "wiltingPoint": 15,
+      "managementAllowableDepletion": 35,
+      "threshold": 24.8
+    },
+    {
+      "crop": "tomato",
+      "soilType": "clay loam",
+      "fieldCapacity": 32,
+      "wiltingPoint": 14,
+      "managementAllowableDepletion": 35,
+      "threshold": 25.7
+    },
+    {
+      "crop": "tomato",
+      "soilType": "clay",
+      "fieldCapacity": 40,
+      "wiltingPoint": 25,
+      "managementAllowableDepletion": 35,
+      "threshold": 34.8
+    },
+    {
+      "crop": "potato",
+      "soilType": "sand",
+      "fieldCapacity": 12,
+      "wiltingPoint": 4,
+      "managementAllowableDepletion": 32,
+      "threshold": 9.4
+    },
+    {
+      "crop": "potato",
+      "soilType": "loamy sand",
+      "fieldCapacity": 14,
+      "wiltingPoint": 6,
+      "managementAllowableDepletion": 32,
+      "threshold": 11.4
+    },
+    {
+      "crop": "potato",
+      "soilType": "sandy loam",
+      "fieldCapacity": 20,
+      "wiltingPoint": 8,
+      "managementAllowableDepletion": 32,
+      "threshold": 16.2
+    },
+    {
+      "crop": "potato",
+      "soilType": "loam",
+      "fieldCapacity": 27,
+      "wiltingPoint": 12,
+      "managementAllowableDepletion": 32,
+      "threshold": 22.2
+    },
+    {
+      "crop": "potato",
+      "soilType": "silt loam",
+      "fieldCapacity": 30,
+      "wiltingPoint": 15,
+      "managementAllowableDepletion": 32,
+      "threshold": 25.2
+    },
+    {
+      "crop": "potato",
+      "soilType": "clay loam",
+      "fieldCapacity": 32,
+      "wiltingPoint": 14,
+      "managementAllowableDepletion": 32,
+      "threshold": 26.2
+    },
+    {
+      "crop": "potato",
+      "soilType": "clay",
+      "fieldCapacity": 40,
+      "wiltingPoint": 25,
+      "managementAllowableDepletion": 32,
+      "threshold": 35.2
+    },
+    {
+      "crop": "cabbage",
+      "soilType": "sand",
+      "fieldCapacity": 12,
+      "wiltingPoint": 4,
+      "managementAllowableDepletion": 35,
+      "threshold": 9.2
+    },
+    {
+      "crop": "cabbage",
+      "soilType": "loamy sand",
+      "fieldCapacity": 14,
+      "wiltingPoint": 6,
+      "managementAllowableDepletion": 35,
+      "threshold": 11.2
+    },
+    {
+      "crop": "cabbage",
+      "soilType": "sandy loam",
+      "fieldCapacity": 20,
+      "wiltingPoint": 8,
+      "managementAllowableDepletion": 35,
+      "threshold": 15.8
+    },
+    {
+      "crop": "cabbage",
+      "soilType": "loam",
+      "fieldCapacity": 27,
+      "wiltingPoint": 12,
+      "managementAllowableDepletion": 35,
+      "threshold": 21.8
+    },
+    {
+      "crop": "cabbage",
+      "soilType": "silt loam",
+      "fieldCapacity": 30,
+      "wiltingPoint": 15,
+      "managementAllowableDepletion": 35,
+      "threshold": 24.8
+    },
+    {
+      "crop": "cabbage",
+      "soilType": "clay loam",
+      "fieldCapacity": 32,
+      "wiltingPoint": 14,
+      "managementAllowableDepletion": 35,
+      "threshold": 25.7
+    },
+    {
+      "crop": "cabbage",
+      "soilType": "clay",
+      "fieldCapacity": 40,
+      "wiltingPoint": 25,
+      "managementAllowableDepletion": 35,
+      "threshold": 34.8
+    },
+    {
+      "crop": "lettuce",
+      "soilType": "sand",
+      "fieldCapacity": 12,
+      "wiltingPoint": 4,
+      "managementAllowableDepletion": 30,
+      "threshold": 9.6
+    },
+    {
+      "crop": "lettuce",
+      "soilType": "loamy sand",
+      "fieldCapacity": 14,
+      "wiltingPoint": 6,
+      "managementAllowableDepletion": 30,
+      "threshold": 11.6
+    },
+    {
+      "crop": "lettuce",
+      "soilType": "sandy loam",
+      "fieldCapacity": 20,
+      "wiltingPoint": 8,
+      "managementAllowableDepletion": 30,
+      "threshold": 16.4
+    },
+    {
+      "crop": "lettuce",
+      "soilType": "loam",
+      "fieldCapacity": 27,
+      "wiltingPoint": 12,
+      "managementAllowableDepletion": 30,
+      "threshold": 22.5
+    },
+    {
+      "crop": "lettuce",
+      "soilType": "silt loam",
+      "fieldCapacity": 30,
+      "wiltingPoint": 15,
+      "managementAllowableDepletion": 30,
+      "threshold": 25.5
+    },
+    {
+      "crop": "lettuce",
+      "soilType": "clay loam",
+      "fieldCapacity": 32,
+      "wiltingPoint": 14,
+      "managementAllowableDepletion": 30,
+      "threshold": 26.6
+    },
+    {
+      "crop": "lettuce",
+      "soilType": "clay",
+      "fieldCapacity": 40,
+      "wiltingPoint": 25,
+      "managementAllowableDepletion": 30,
+      "threshold": 35.5
+    },
+    {
+      "crop": "wheat",
+      "soilType": "sand",
+      "fieldCapacity": 12,
+      "wiltingPoint": 4,
+      "managementAllowableDepletion": 45,
+      "threshold": 8.4
+    },
+    {
+      "crop": "wheat",
+      "soilType": "loamy sand",
+      "fieldCapacity": 14,
+      "wiltingPoint": 6,
+      "managementAllowableDepletion": 45,
+      "threshold": 10.4
+    },
+    {
+      "crop": "wheat",
+      "soilType": "sandy loam",
+      "fieldCapacity": 20,
+      "wiltingPoint": 8,
+      "managementAllowableDepletion": 45,
+      "threshold": 14.6
+    },
+    {
+      "crop": "wheat",
+      "soilType": "loam",
+      "fieldCapacity": 27,
+      "wiltingPoint": 12,
+      "managementAllowableDepletion": 45,
+      "threshold": 20.2
+    },
+    {
+      "crop": "wheat",
+      "soilType": "silt loam",
+      "fieldCapacity": 30,
+      "wiltingPoint": 15,
+      "managementAllowableDepletion": 45,
+      "threshold": 23.2
+    },
+    {
+      "crop": "wheat",
+      "soilType": "clay loam",
+      "fieldCapacity": 32,
+      "wiltingPoint": 14,
+      "managementAllowableDepletion": 45,
+      "threshold": 23.9
+    },
+    {
+      "crop": "wheat",
+      "soilType": "clay",
+      "fieldCapacity": 40,
+      "wiltingPoint": 25,
+      "managementAllowableDepletion": 45,
+      "threshold": 33.2
+    }
+  ]
+}
