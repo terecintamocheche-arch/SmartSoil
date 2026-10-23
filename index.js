@@ -1,6 +1,7 @@
 console.log("Welcome to Smart Soil");
 const projectName="SmartSoil";
 console.log(projectName);
+let thresholds = [];
 
 fetch("soil_moisture_thresholds.json")
   .then(function (response) {
